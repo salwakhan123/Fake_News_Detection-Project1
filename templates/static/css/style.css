@@ -1,0 +1,29 @@
+body {
+    margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                url('https://raw.githubusercontent.com/salwakhan123/fake_news_detect/main/static/css/background.jpg') no-repeat center center fixed;
+    background-size: cover; font-family: 'Poppins', sans-serif;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1); padding: 35px; border-radius: 25px;
+    text-align: center; width: 90%; max-width: 460px; color: white;
+}
+textarea {
+    width: 100%; height: 120px; border-radius: 12px; border: none; padding: 15px;
+    background: rgba(255, 255, 255, 0.95); color: #333; box-sizing: border-box;
+}
+.analyze-btn {
+    width: 100%; background: #3498db; color: white; border: none; padding: 15px;
+    margin-top: 15px; border-radius: 10px; font-weight: bold; cursor: pointer;
+}
+.test-section {
+    margin-top: 25px; padding-top: 15px; border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.btn-group { display: flex; gap: 12px; justify-content: center; margin-top: 12px; }
+.test-btn {
+    padding: 10px; border-radius: 25px; border: none; color: white; 
+    font-weight: bold; font-size: 0.75rem; cursor: pointer; flex: 1;
+}
+.fake-btn { background: #9b59b6; }
+.real-btn { background: #2ecc71; }
